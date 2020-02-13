@@ -1,5 +1,6 @@
 class PropertiesController < ApplicationController
   before_action :set_property, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_account!, only: [:new, :create, :destroy]
 
   # GET /properties
   # GET /properties.json
@@ -25,6 +26,7 @@ class PropertiesController < ApplicationController
   # POST /properties.json
   def create
     @property = Property.new(property_params)
+    @property.account_id = current_account.id
 
     respond_to do |format|
       if @property.save
@@ -69,6 +71,6 @@ class PropertiesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def property_params
-      params.require(:property).permit(:name, :address, :price, :rooms, :bathroom)
+      params.require(:property).permit(:name, :address, :price, :rooms, :bathrooms)
     end
 end
