@@ -11,6 +11,13 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 # Use devise for user authentication
 gem 'devise'
+
+# Upload photos
+gem 'carrierwave'
+gem 'fog-aws'
+# Image resizing
+gem 'mini_magick'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -42,6 +49,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Use figaro for managing environment
+  gem "figaro"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
