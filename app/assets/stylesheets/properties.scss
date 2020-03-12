@@ -11,3 +11,12 @@
    background0-size: cover;
    margin-bottom: 40px;
 }
+
+#prop-details {
+  height: 150px;
+  overflow: hidden;
+
+   .open {
+       height: auto;
+   }
+}

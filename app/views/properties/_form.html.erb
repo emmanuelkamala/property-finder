@@ -26,6 +26,16 @@
     <%= form.number_field :bathrooms, class: "form-control" %>
   </div>
 
+  <div class="col-6 field">
+    <%= form.label :parking_spaces %>
+    <%= form.number_field :parking_spaces, class: "form-control" %>
+  </div>
+
+  <div class="col-6 field">
+    <%= form.label :details %>
+    <%= form.text_area :details, rows: 8, class: "form-control" %>
+  </div>
+
   <div class="form-group col-6">
     <%= form.label :photo %>
     <%= form.file_field :photo, class: "form-control" %>
