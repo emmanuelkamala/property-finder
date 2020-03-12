@@ -1,8 +1,8 @@
 <% @properties.each do |property| %>
 
    <div class="col-3">
-     <%= property_thumbnail property %>
-     <%= property.name %>
+    <%= link_to property_thumbnail(property), property_path(property) %>
+     <h3><%= link_to property.name, property_path(property) %></h3>
      <%= property.address %>
    </div>
 
