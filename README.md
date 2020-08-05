@@ -3,9 +3,6 @@
 This is a practice project on creating a real estate web application for finding properties. There is a login system for freelance real estate agents, where they can upload properties, and app users can search through the properties and be able to book a property they liked. 
 
 
-
-Additional description about the project and its features.
-
 ## Built With
 
 - Ruby '~>2.7'
