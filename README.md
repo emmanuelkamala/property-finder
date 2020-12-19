@@ -12,7 +12,7 @@ This is a practice project on creating a real estate web application for finding
 
 ## Live Demo
 
-Coming up...
+Coming up soon...
 
 
 ## Getting Started
