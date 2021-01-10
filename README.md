@@ -48,4 +48,14 @@ Clone the repo and then install the needed gems:
 - Twitter: [@twitterhandle](https://twitter.com/ejkamala)
 - Linkedin: [linkedin](https://linkedin.com/in/emmanuelkamala)
 
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 
