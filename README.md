@@ -32,7 +32,7 @@ Clone the repo and then install the needed gems:
 
  # Create and Migrate the database:
 
- rails db:create
+ rails db:create <br />
  rails db:migrate
 
  # Run the app in a local server:
